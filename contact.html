@@ -104,19 +104,22 @@
             </div>
             <form class=" form row g-3 mb-5">
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Name</label>
-    <input type="text" placeholder="   Enter Your Name" class="form-control" id="inputEmail4">
+    <label for="inputname" class="form-label">Name</label>
+    <input type="text" placeholder="   Enter Your Name" class="form-control" id="inputname">
+     <p class="error nameErr"></p>
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Email</label>
-    <input type="email" placeholder="   Enter email Address" class="form-control" id="inputPassword4">
+    <label for="inputemail" class="form-label">Email</label>
+    <input type="email" placeholder="   Enter email Address" class="form-control" id="inputemail">
+    <p class="error emailErr"></p>
   </div>
   <div class="col-12">
-    <label for="inputAddress" class="form-label">Subject</label>
-    <input type="text" class="form-control" placeholder="   Write a Subject" id="inputAddress" placeholder="1234 Main St">
+    <label for="inputsubject" class="form-label">Subject</label>
+    <input type="text" class="form-control" placeholder="   Write a Subject" id="inputsubject" placeholder="1234 Main St">
+    <p class="error subErr"></p>
   </div>
  
-  <label for="inputAddress" class="form-label">Message</label>
+  <label for="inputmsg" class="form-label">Message</label>
  <textarea name="msg" placeholder="   Write Your Message" class="form-control text"  id="msg"></textarea>
   <div class="col-12">
    <input type="submit" class="form-control" id="sub">
@@ -246,5 +249,6 @@
     <script src="./bootstrap/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
      <!-- jquery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <script src="./js/contact.js"></script>
 </body>
 </html>
