@@ -29,7 +29,9 @@ ul li {
 .topbar a{
     color: white;
 }
-
+.topbar a:hover{
+    background-color: #AD343E;
+}
 .right{
     text-align: right;
 }
@@ -284,6 +286,9 @@ ul li {
     color: #DBDFD0;
     font-size: 16px;
 }
+.first-col a:hover{
+    background-color: #6b6464;
+}
 .copy{
     text-align: center;
     color: #DBDFD0;
@@ -303,6 +308,12 @@ ul li {
     .do img:hover{
         transform: scale(1.1);
     }
+.footer .ka{
+    max-width: 140px;
+}
+.footer .ba{
+    max-width: 140px;
+}
 @media screen and (max-width:1199px){
     .ak{
         display: flex;

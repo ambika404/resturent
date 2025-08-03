@@ -35,7 +35,9 @@ ul li {
 .topbar a{
     color: white;
 }
-
+.topbar a:hover{
+    background-color: #AD343E;
+}
 .right{
     text-align: right;
 }
@@ -60,6 +62,10 @@ ul li {
     border-radius: 50px;
     color: #DBDFD0;
 }
+#sub:hover{
+    background-color: #6b6464;
+    color: #FFFFFF;
+}
 @media screen and (max-width:767px){
     .main-top{
         display: flex;
@@ -75,7 +81,6 @@ ul li {
 .table-part{
 background-color: rgb(239, 238, 238);
 }
-
 .form{
     max-width: 600px;
     width: 100%;
@@ -114,6 +119,11 @@ background-color: rgb(239, 238, 238);
     position: relative;
     top: 300px;
 }
+@media screen and (max-width:991px){
+    .form{
+        margin-top: 310px !important;
+    }
+}
 .footer{
     background-color: #474747;
     padding-top: 100px;
@@ -138,6 +148,9 @@ background-color: rgb(239, 238, 238);
 .sec-col ul li a{
     color: #DBDFD0;
     font-size: 16px;
+}
+.first-col a:hover{
+    background-color: #6b6464;
 }
 .copy{
     text-align: center;
@@ -174,12 +187,23 @@ background-color: rgb(239, 238, 238);
 .form:hover{
     box-shadow: 0 0 10px #474747;
 }
- .ak img:hover{
-        transform: scale(1.1);
+.ak img:hover{
+    transform: scale(1.1);
+}
+.do img:hover{
+    transform: scale(1.1);
+}
+.footer .ka{
+    max-width: 140px;
+}
+.footer .ba{
+    max-width: 140px;
+}
+@media screen and (max-width:1399px){
+    .footer{
+        margin-top: 100px;
     }
-    .do img:hover{
-        transform: scale(1.1);
-    }
+}
 @media screen and (max-width:1199px){
     .ak{
         display: flex;

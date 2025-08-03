@@ -32,7 +32,9 @@ ul li {
 .topbar a{
     color: white;
 }
-
+.topbar a:hover{
+    background-color: #AD343E;
+}
 .right{
     text-align: right;
 }
@@ -114,6 +116,15 @@ ul li {
 .sec-col ul li a{
     color: #DBDFD0;
     font-size: 16px;
+}
+.first-col a:hover{
+    background-color: #6b6464;
+}
+ .footer .ka{
+    max-width: 140px;
+}
+.footer .ba{
+    max-width: 140px;
 }
 .copy{
     text-align: center;
