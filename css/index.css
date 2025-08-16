@@ -92,6 +92,9 @@ ul li {
     padding: 7px 15px;
     border-radius: 50px;
 }
+.navbar-toggler{
+    background-color: #AD343E;
+}
 @media screen and (max-width:767px){
     .main-top{
         display: flex;
@@ -155,7 +158,14 @@ ul li {
     border-radius: 50px;
     color: #DBDFD0;
 }
-
+.box-1:hover{
+        transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
+        box-shadow: 0 0 10px #6b6464;
+ } 
+ .btn-ex:hover{
+    color:#474747;
+ }
 .browse .card img{
     max-width: 50px;
     width: 100%;
@@ -203,6 +213,11 @@ ul li {
     padding: 30px;
     color: #FFFFFF;
     border-radius: 10px;
+}
+.visit-box:hover{
+    transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
+        box-shadow: 0 0 10px #6b6464;
 }
 .visit-box a{
     color: #FFFFFF;
@@ -273,6 +288,9 @@ ul li {
 .main-service .card{
     text-align: left;
 
+}
+.main-service .col:hover{
+    box-shadow: 0 0 10px #474747;
 }
 .main-service p{
     font-size: 16px;
@@ -490,7 +508,11 @@ ul li {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
+.burger:hover{
+    transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
+        box-shadow: 0 0 10px #6b6464;
+}
 @media screen and (max-width:767px){
     .haw{
         display: flex;

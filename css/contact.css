@@ -57,6 +57,9 @@ ul li {
     padding: 7px 15px;
     border-radius: 50px;
 }
+.navbar-toggler{
+    background-color: #AD343E;
+}
 @media screen and (max-width:767px){
     .main-top{
         display: flex;
@@ -130,6 +133,11 @@ ul li {
 #sub:hover{
     background-color: #6b6464;
     color:#FFFFFF;
+}
+.form:hover{
+    transform: translateY(-10px);
+        transition: transform 0.7s ease-in-out;
+        box-shadow: 0 0 10px #6b6464;
 }
 @media screen and (max-width:575px){
     .box{

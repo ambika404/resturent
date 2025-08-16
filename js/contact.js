@@ -56,3 +56,4 @@ $('#inputsubject').on('input',function(){
         $('.subErr').html("okay")
     }
 })
+

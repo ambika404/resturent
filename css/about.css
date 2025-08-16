@@ -56,6 +56,9 @@ ul li {
     border-radius: 50px;
     color: #DBDFD0;
 }
+.navbar-toggler{
+    background-color: #AD343E;
+}
 @media screen and (max-width:767px){
     .main-top{
         display: flex;
@@ -88,6 +91,11 @@ ul li {
     padding: 30px;
     color: #FFFFFF;
     border-radius: 10px;
+}
+.visit-box:hover{
+    transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
+        box-shadow: 0 0 10px #6b6464;
 }
 .visit-box a{
     color: #FFFFFF;
@@ -186,6 +194,11 @@ ul li {
     /* padding: 10px; */
     
 }
+.one:hover{
+     transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
+        box-shadow: 0 0 10px #6b6464;
+}
 .one{
     background-color: #FFFFFF;
 }
@@ -206,6 +219,10 @@ ul li {
 }
 .loc{
     font-size: 18px;
+}
+.right-pic img:hover{
+box-shadow: 0 0 10px #AD343E;
+filter: brightness(50%);
 }
 @media screen and (max-width:767px){
     .right-pic{

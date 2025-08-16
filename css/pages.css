@@ -67,6 +67,9 @@ ul li {
     border-radius: 50px;
     color: #DBDFD0;
 }
+.navbar-toggler{
+    background-color: #AD343E;
+}
 @media screen and (max-width:767px){
     .main-top{
         display: flex;
@@ -180,6 +183,10 @@ ul li {
 }
 .footer .ba{
     max-width: 140px;
+}
+.part .col:hover{
+    transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
 }
 @media screen and (max-width:1199px){
     .ak{

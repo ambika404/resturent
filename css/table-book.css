@@ -66,6 +66,9 @@ ul li {
     background-color: #6b6464;
     color: #FFFFFF;
 }
+.navbar-toggler{
+    background-color: #AD343E;
+}
 @media screen and (max-width:767px){
     .main-top{
         display: flex;
@@ -91,6 +94,11 @@ background-color: rgb(239, 238, 238);
     z-index: 5;
     right: 450px;
     background-color: #FFFFFF;
+}
+.form-part:hover{
+    transform: translateY(-10px);
+        transition: transform 0.7s ease-in-out;
+        box-shadow: 0 0 10px #6b6464;
 }
 .table h6{
     font-size: 50px;
