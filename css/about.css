@@ -48,8 +48,12 @@ ul li {
 }
 .about{
     background-color: #DBDFD0;
-    padding: 7px 15px;
+    /* padding: 7px 15px; */
+    width: 25%;
+    margin: auto;
     border-radius: 50px;
+    /* width: 20%;
+    text-align: center; */
 }
 .book:hover{
     background-color: #AD343E;
@@ -58,6 +62,11 @@ ul li {
 }
 .navbar-toggler{
     background-color: #AD343E;
+}
+@media screen and (max-width:991px){
+.book{
+        text-align: center;
+    }
 }
 @media screen and (max-width:767px){
     .main-top{
@@ -138,6 +147,12 @@ ul li {
    .right-food h5{
     margin-top: 180px;
    }
+   .visit-box{
+    padding: 0;
+   }
+   .right-food h5{
+    font-size: 30px;
+   }
 }
 /*  */
 .taste{
@@ -172,12 +187,17 @@ ul li {
 .main-part .col:hover{
     box-shadow: 0 0 10px #6b6464;
 }
+
 .card-part p{
     max-width: 300px;
 }
 @media screen and (max-width:767px){
     .taste{
         margin: 0 20px !important;
+    }
+    .main-part{
+        display: flex;
+        flex-direction: column;
     }
 }
 /*  */
@@ -224,6 +244,19 @@ ul li {
 box-shadow: 0 0 10px #AD343E;
 filter: brightness(50%);
 }
+@media screen and (max-width:991px){
+ .first-box .col{
+        margin-bottom: 30px;
+    }
+    .main-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-pic img{
+        display: block;
+        margin: auto;
+    }
+}
 @media screen and (max-width:767px){
     .right-pic{
         padding-top: 50px;
@@ -233,6 +266,14 @@ filter: brightness(50%);
         margin: auto;
         max-width: 250px !important;
     }
+    .information h5{
+        font-size: 25px;
+    }
+    /* .first-box{
+        display: flex;
+        flex-direction: column;
+    } */
+    
 }
 /*  */
 .customer-say{

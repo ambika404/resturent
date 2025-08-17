@@ -54,11 +54,25 @@ ul li {
 }
 .contact-bt{
     background-color: #DBDFD0;
+    /* padding: 7px 15px; */
+    width: 25%;
+    margin: auto;
+    border-radius: 50px;
+    /* width: 20%;
+    text-align: center; */
+}
+/* .contact-bt{
+    background-color: #DBDFD0;
     padding: 7px 15px;
     border-radius: 50px;
-}
+} */
 .navbar-toggler{
     background-color: #AD343E;
+}
+@media screen and (max-width:991px){
+.book{
+        text-align: center;
+    }
 }
 @media screen and (max-width:767px){
     .main-top{

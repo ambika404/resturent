@@ -48,9 +48,18 @@ ul li {
 }
 .menu{
     background-color: #DBDFD0;
+    /* padding: 7px 15px; */
+    width: 25%;
+    margin: auto;
+    border-radius: 50px;
+    /* width: 20%;
+    text-align: center; */
+}
+/* .menu{
+    background-color: #DBDFD0;
     padding: 7px 15px;
     border-radius: 50px;
-}
+} */
 .menu:hover{
     background-color: #AD343E;
     border-radius: 50px;
@@ -63,6 +72,11 @@ ul li {
 }
 .navbar-toggler{
     background-color: #AD343E;
+}
+@media screen and (max-width:991px){
+.book{
+        text-align: center;
+    }
 }
 @media screen and (max-width:767px){
     .main-top{

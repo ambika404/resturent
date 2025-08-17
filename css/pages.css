@@ -57,10 +57,19 @@ ul li {
     border-radius: 50px;
     padding: 10px 15px;
 }
-.pages{
+/* .pages{
     background-color: #DBDFD0;
     padding: 7px 15px;
     border-radius: 50px;
+} */
+.pages{
+    background-color: #DBDFD0;
+    /* padding: 7px 15px; */
+    width: 25%;
+    margin: auto;
+    border-radius: 50px;
+    /* width: 20%;
+    text-align: center; */
 }
 .book:hover{
     background-color: #AD343E;
@@ -69,6 +78,11 @@ ul li {
 }
 .navbar-toggler{
     background-color: #AD343E;
+}
+@media screen and (max-width:991px){
+.book{
+        text-align: center;
+    }
 }
 @media screen and (max-width:767px){
     .main-top{

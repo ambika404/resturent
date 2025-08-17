@@ -69,6 +69,11 @@ ul li {
 .navbar-toggler{
     background-color: #AD343E;
 }
+@media screen and (max-width:991px){
+.book{
+        text-align: center;
+    }
+}
 @media screen and (max-width:767px){
     .main-top{
         display: flex;
@@ -129,7 +134,12 @@ background-color: rgb(239, 238, 238);
 }
 @media screen and (max-width:991px){
     .form{
-        margin-top: 310px !important;
+        margin-top: 210px !important;
+    }
+}
+@media screen and (max-width:767px){
+    .form{
+        margin-top: 260px !important;
     }
 }
 .footer{
