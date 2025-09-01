@@ -243,6 +243,9 @@ border-radius: 10px;
 .footer .ba{
     max-width: 140px;
 }
+.hide-part{
+    display: none;
+}
 @media screen and (max-width:1199px){
     .ak{
         display: flex;

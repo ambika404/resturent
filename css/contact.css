@@ -149,7 +149,7 @@ ul li {
     color:#FFFFFF;
 }
 .form:hover{
-    transform: translateY(-10px);
+        transform: translateY(-10px);
         transition: transform 0.7s ease-in-out;
         box-shadow: 0 0 10px #6b6464;
 }
